@@ -1,0 +1,22 @@
+{
+    "name": "baorv/lazyload",
+    "description": "Lazyload integration for Yii2",
+    "keywords": ["yii2","extension","lazyload", "javascript"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baorv",
+            "email": "roanvanbao@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "baorv\\lazyload\\": "src/"
+        }
+    }
+}
